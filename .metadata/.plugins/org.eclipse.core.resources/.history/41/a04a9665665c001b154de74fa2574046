@@ -1,0 +1,26 @@
+package demo03;
+
+public class childArea extends Area {
+
+	public childArea(int radius) {
+		super(radius);
+	}
+	
+public childArea(int lenght,int breadth) {
+	super(lenght,breadth);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		childArea area=new childArea(10);
+		
+		area.circleArea();
+		area.SquareArea();
+		childArea area1=new childArea(10,10);
+		area1.rectangleArea();
+		
+	}
+
+}

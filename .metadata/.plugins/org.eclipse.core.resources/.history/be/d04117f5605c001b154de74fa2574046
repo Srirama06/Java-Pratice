@@ -1,0 +1,25 @@
+package demo03;
+
+
+class parent
+{
+	public parent ()
+	{
+		System.out.println("I am parent class");
+	}
+}
+
+public class Pratice extends parent{
+
+	public Pratice() 
+	{
+		System.out.println("I am child class");
+	}
+
+	public static void main(String[] args) {
+		
+		Pratice pr=new Pratice();
+    
+	}
+
+}

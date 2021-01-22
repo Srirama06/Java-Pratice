@@ -1,0 +1,36 @@
+package demo03;
+
+
+class parent
+{
+	public parent ()
+	{
+		//System.out.println("I am parent class");
+	}
+	
+	public void display()
+	{
+		System.out.println("I am parent display method");
+	}
+}
+
+public class Pratice extends parent{
+
+	public Pratice(int i) 
+	{
+		super();
+		System.out.println("I am child class "+i);
+	}
+	
+	public void display()
+	{
+		System.out.println("I am parent child method");
+	}
+
+	public static void main(String[] args) {
+		
+		Pratice pr=new Pratice(10);
+		pr.display();
+	}
+
+}
