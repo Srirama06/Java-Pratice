@@ -1,0 +1,33 @@
+package Day1;
+
+
+class parent
+{
+	
+	public void display(String name)
+	{
+		System.out.println("My Name is "+name);
+	}
+}
+
+public class demo04 extends parent {
+	
+	public void info(String empid)
+	{
+		System.out.println("My emp id  is "+empid);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		demo04 dm=new demo04();
+		
+		dm.info("123456");
+		
+		
+		dm.display("john");
+		
+
+	}
+
+}

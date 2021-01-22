@@ -1,0 +1,28 @@
+package demo03;
+
+import Day1.IntrestRate;
+
+public class Bank extends IntrestRate {
+	public void sbi()
+	{
+		
+	}
+	public void cnanrabank()
+	{
+		
+	}
+	public void pnb()
+	{
+		
+	}
+
+	public Bank(int intr) {
+		
+	}
+
+	public static void main(String[] args) {
+		Bank bk=new Bank(5);
+
+	}
+
+}

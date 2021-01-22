@@ -1,0 +1,12 @@
+package Day1;
+
+public class IntrestRate {
+	
+	int intrestrate
+
+	public IntrestRate(int intrestrate)
+	{
+		this.intrestrate=intrestrate;
+	}
+
+}
