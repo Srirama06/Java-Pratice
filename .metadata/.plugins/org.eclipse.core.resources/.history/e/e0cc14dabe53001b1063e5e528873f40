@@ -1,0 +1,14 @@
+package Day1;
+
+public class Basent {
+
+	public static void main(String[] args) {
+	
+		System.out.println("Hello world");
+		System.out.println("hai how are you");
+		System.out.println("There is huge opportunity for jobs in banglore");
+		System.err.println("sdasdasd");
+		
+	}
+
+}

@@ -1,0 +1,39 @@
+package Day1;
+
+public class MathmaticOperation {
+
+	
+	public void sum(int a,int b)
+	{
+		System.out.println(a+b);
+	}
+	
+	public void Sub(int a,int b)
+	{
+		System.out.println(a-b);
+	}
+	
+	public void mul(int a,int b)
+	{
+		System.out.println(a*b);
+	}
+	
+	public void d(int a,int b)
+	{
+		System.out.println(a/b);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		MathmaticOperation operation=new MathmaticOperation();
+		
+		operation.sum(20, 10);
+		operation.Sub(20, 10);
+		operation.mul(20, 10);
+		operation.d(20, 10);
+
+	}
+
+}

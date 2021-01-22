@@ -1,0 +1,16 @@
+package demo2;
+
+public class Arr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr1= {2,5,7,8};
+		
+		System.out.println(arr1[1]);
+		
+		String[] arr2= {"a","5","v","9"};
+
+	}
+
+}

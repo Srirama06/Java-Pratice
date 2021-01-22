@@ -1,0 +1,17 @@
+package Day1;
+
+public class Basent {
+
+	public static void main(String[] args) {
+	
+		System.out.println("Hello world");
+		System.out.println("hai how are you");
+		System.out.println("There is huge opportunity for jobs in banglore");
+		System.err.println("sdasdasd");
+		
+		
+		if(2>8)   
+			System.err.println("5 is greater");
+		else
+			System.err.println("4 is greater");
+		System.out.println("welcome to our home sweet home");

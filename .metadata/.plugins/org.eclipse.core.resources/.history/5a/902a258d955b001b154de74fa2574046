@@ -1,0 +1,39 @@
+package demo2;
+
+
+
+class Parent
+{
+	void m1(){System.out.println("m1 of A");};
+	void m2(){System.out.println("M2 of B");};
+	
+	
+}
+class child01 extends Parent
+{
+	
+	void m3(){System.out.println("M3 of C");};
+}
+class child02 extends b
+{
+	
+	void m4(){System.out.println("M4 of C");};
+	void m5(){System.out.println("M5 of C");};
+	
+}
+public class inheritance01 extends c {
+	
+	
+	void m6(){System.out.println("M6 Inheritance");};
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		inheritance01 ino1=new inheritance01();
+		
+		
+	}
+
+}

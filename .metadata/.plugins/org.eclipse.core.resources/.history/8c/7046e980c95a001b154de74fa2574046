@@ -1,0 +1,17 @@
+package demo2;
+
+public class Oops_3 {
+	
+	void display()
+	{
+		System.out.println("I am a display method");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Oops_3 op=new Oops_3();
+		new Oops_3().display();;
+	}
+
+}

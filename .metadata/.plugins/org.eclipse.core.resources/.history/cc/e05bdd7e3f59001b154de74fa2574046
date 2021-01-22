@@ -1,0 +1,24 @@
+package Day1;
+
+public class Demo5 {
+	
+	
+  int a=10;
+  
+  public void display()
+  {
+	  System.out.println("I am display method");
+  }
+	
+
+	public static void main(String[] args) 
+	{
+		
+		Demo5 dm=new Demo5();
+		
+		System.out.println("I am main method");
+		dm.display();
+		
+	}
+
+}

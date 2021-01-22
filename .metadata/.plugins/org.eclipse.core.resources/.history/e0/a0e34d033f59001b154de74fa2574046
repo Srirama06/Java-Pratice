@@ -1,0 +1,19 @@
+package Day1;
+
+public class Demo5 {
+	
+	
+  int a=10;
+	
+
+	public static void main(String[] args) 
+	{
+		
+		Demo5 dm=new Demo5();
+		
+		
+		System.out.println(dm.a);
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package Day1;
+
+public class Basent {
+
+	public static void main(String[] args) {
+	
+		System.out.println("Hello world");
+		System.out.println("hai how are you");
+		
+	}
+
+}

@@ -1,0 +1,40 @@
+package Day1;
+
+public class Demo5 {
+	
+	
+  int a=10;
+  
+  public void display()
+  {
+	  System.out.println("I am display method");
+  }
+  
+  public void print(int n,int m)
+  {
+	  System.out.println("I am print method " +n +" "+m);
+  }
+  
+  public void sum(int n,int m)
+  {
+	  
+	  int sum=n/m;
+	  System.out.println("I am sum method " +sum);
+  }
+	
+
+	public static void main(String[] args) 
+	{
+		
+		Demo5 dm=new Demo5();
+		System.out.println(dm);
+		System.out.println("I am main method");
+		dm.display();
+		
+		dm.print(10,15);
+		
+		dm.sum(10,15);
+		
+	}
+
+}

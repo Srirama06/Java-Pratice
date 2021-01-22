@@ -1,0 +1,25 @@
+package Day1;
+
+public class whileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=0;
+		
+		while(i<100)  //true
+		{
+			System.out.println(i);
+			
+			//i++;
+		}
+     int r=100;
+     
+    	 while(r>500)
+    	 {
+    		 System.out.println(r);
+    		 r++;
+     }
+	}
+
+}

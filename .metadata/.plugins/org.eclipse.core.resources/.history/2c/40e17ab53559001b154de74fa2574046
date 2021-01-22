@@ -1,0 +1,49 @@
+package Day1;
+
+public class Pattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		for(int i=1;i<=5;i++)
+		{
+			
+			
+			for(int k=0;k<i;k++)
+			{
+			System.out.print("*");
+			}
+			///System.out.println("");
+		
+      for(int r=1;r<=9;r++)
+      {
+    	  for(int s=0;s<r;s++)
+    	  {
+    		  System.out.print("*");
+    		  
+    	  }
+    	  ///System.out.println();
+    	  
+    	  int len = 1;
+          int k;
+
+          System.out.println("**********");
+          for (int row = 9; row > len; row--)
+          {
+
+              for(int j=0; j<row; j++)
+                  System.out.print("*");
+              System.out.println("");
+          }
+          for (int end = 0; end<1; end++)
+          {
+              System.out.format("%10s", "*");
+          }
+     }
+
+  }
+      }
+}
+
+

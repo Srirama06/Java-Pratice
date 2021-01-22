@@ -1,0 +1,27 @@
+package demo2;
+
+public class oops_2 {
+	
+	int a=0;
+	
+	oops_2()
+	{
+		System.out.println("----");
+		System.out.println(a++);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+		oops_2 op=new oops_2();
+		oops_2 op1=new oops_2();
+		
+		oops_2 op2=new oops_2();
+		
+		oops_2 op3=new oops_2();
+
+	}
+
+}

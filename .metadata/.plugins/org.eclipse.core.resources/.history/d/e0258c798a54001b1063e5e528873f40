@@ -1,0 +1,28 @@
+package Day1;
+
+public class ifElseCondition {
+
+	public static void main(String[] args) {
+		
+		
+		/*int gradeA=90;
+		int gradeB=70;
+		int gradeC=60;*/
+			
+		int grade=95;    ///// grade =30, grade=40, grade 80, grade 95
+		
+		if(grade ==90)
+		{
+			System.out.println("gradeA");
+		}
+		else if (grade == 70)
+		{
+			System.out.println("gradeB");
+		}
+		else
+		{
+			System.out.println("gradec");
+		}
+	}
+
+}

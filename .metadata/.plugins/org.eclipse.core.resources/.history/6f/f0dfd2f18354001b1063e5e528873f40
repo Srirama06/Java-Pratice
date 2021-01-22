@@ -1,0 +1,23 @@
+package Day1;
+
+public class contoller {
+
+	public static void main(String[] args) {
+		
+	
+		int a=2;
+		int b=0;
+		
+		{
+			if(a);
+			System.out.println("A is greater "a);
+			
+			else
+				System.out.println("B is greater "b);
+		}
+			
+		
+		
+	}
+
+}
