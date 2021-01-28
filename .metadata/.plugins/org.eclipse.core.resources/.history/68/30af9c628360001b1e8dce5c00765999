@@ -1,0 +1,31 @@
+package demo03;
+
+public class Bank_1class {
+      
+	int Deposite=500;
+	int Withdraw=100;
+	int checkbalance=0;
+	
+	
+	
+	
+	
+	public Bank_1class() {
+		
+		if(Deposite<Withdraw);	{
+			System.out.println(Deposite);
+			
+	
+		else 
+		{
+			System.out.println(withdraw);
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package demo03;
+
+public class Bank_1class {
+	
+	int pnr=7;
+	String ="Irctc";
+      
+	
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

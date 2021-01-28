@@ -1,0 +1,17 @@
+package demo03;
+
+public class Employee {
+	
+	String employeeid="234567";
+
+
+	public static void main(String[] args) {
+		
+		
+		//String employeeid="234567";
+		
+		System.out.println(employeeid);
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package demo03;
+
+public class Bank01 {
+	
+
+	
+	public static int initialAmount=1000;
+	
+	
+	
+	public static void deposit(int amount)
+	{
+		System.out.println(initialAmount+amount);
+	}
+	public static void withdraw(int Amount)
+	{
+		System.out.println(initialAmount-Amount);
+	}
+     public static void getBalalnce()
+     {
+    	 System.out.println(initialAmount);
+     }
+
+	public static void main(String[] args) {
+	
+		Bank01 bank=new Bank01();
+		Bank01.deposit(500);
+		Bank01.withdraw(100);
+		Bank01.getBalalnce();
+		
+		 System.out.println(bank.initialAmount);
+	}
+	
+
+
+
+}

@@ -1,0 +1,18 @@
+package demo03;
+
+public class Employee {
+	
+	static String employeeid="2345670";
+
+
+	public static void main(String[] args) {
+		
+		
+		//String employeeid="234567"; 
+		//inside the static method we should use static variable
+		
+		System.out.println(employeeid);
+
+	}
+
+}
