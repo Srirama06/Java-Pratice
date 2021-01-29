@@ -1,0 +1,16 @@
+package oops;
+
+
+
+class Parent01
+{
+	
+}
+public class Dmeo02 extends Parent01{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Parent01 part=new Parent01();
+	}
+
+}

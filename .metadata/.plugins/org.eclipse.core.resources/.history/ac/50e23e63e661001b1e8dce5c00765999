@@ -1,0 +1,44 @@
+package oops;
+
+
+class Area
+{
+	int l;
+	int b;
+	int c;
+	int d;
+	Area(int lt,int b,int c,int d)
+	{
+		this.l=lt;
+		this.b=b;
+		this.c=c;
+		this.d=d;
+	}
+	
+	public void displayArea()
+	{
+		System.out.println("Area is ="+l*b*c*d);
+	}
+}
+
+
+public class Demo extends Area {
+	
+	
+
+	private static int d;
+	private static int c;
+
+	Demo(int l, int b) {
+		super(l, b,c,d);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		
+		Demo dm=new Demo(20,30);
+		dm.displayArea();
+	}
+
+}

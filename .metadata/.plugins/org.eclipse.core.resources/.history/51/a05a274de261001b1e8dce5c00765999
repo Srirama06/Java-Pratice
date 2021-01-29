@@ -1,0 +1,25 @@
+package oops;
+
+
+
+class Parent01
+{
+	Parent01()
+	{
+		System.out.println("parent----");
+	}
+}
+public class Dmeo02 extends Parent01{
+	
+	Dmeo02(int b,int c)
+	{
+		super();
+		System.out.println(b+" "+c);
+	}
+
+	public static void main(String[] args) {
+		
+		Dmeo02 part=new Dmeo02(10,5);
+	}
+
+}

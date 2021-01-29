@@ -1,0 +1,10 @@
+package oops;
+
+public class InherichicalInheritance {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

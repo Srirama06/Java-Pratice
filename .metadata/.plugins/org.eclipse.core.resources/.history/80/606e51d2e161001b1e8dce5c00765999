@@ -1,0 +1,21 @@
+package oops;
+
+
+
+class Parent01
+{
+	
+}
+public class Dmeo02 extends Parent01{
+	
+	Dmeo02(int n,int b)
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Dmeo02 part=new Dmeo02(10,20);
+	}
+
+}

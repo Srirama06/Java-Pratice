@@ -1,0 +1,23 @@
+package oops;
+
+
+class A
+{
+	int a=50;
+}
+class B extends A
+{
+	
+}
+
+public class InherichicalInheritance extends A {
+
+	public static void main(String[] args) {
+		
+		A aa=new A();
+		
+		System.out.println(aa.a);
+
+	}
+
+}

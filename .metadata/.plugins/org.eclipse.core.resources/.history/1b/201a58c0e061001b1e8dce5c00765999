@@ -1,0 +1,32 @@
+package oops;
+
+
+class Area
+{
+	int l;
+	int b;
+	Area(int l,int b)
+	{
+		this.l=l;
+		this.b=b;
+	}
+}
+class square extends Area
+{
+	
+}
+class rectangele extends Area
+{
+	
+}
+
+public class Demo extends Area {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Area ar=new Area(20,30);
+	}
+
+}

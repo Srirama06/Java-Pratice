@@ -4,16 +4,16 @@ public class Bank01 {
 	
 
 	
-	  int initialAmount=1000;
+	  int initialAmount=5000;
 	
 	
 	
-	public   void deposit(int amount)
+	public   void deposit(int  amount)
 	{
 		initialAmount=initialAmount+amount;
 		System.out.println(initialAmount);
 	}
-	public void withdraw(int Amount)
+	public void withdraw(int  Amount)
 	{
 		
 		initialAmount=initialAmount-Amount;
@@ -30,6 +30,10 @@ public class Bank01 {
 		bank.deposit(500);
 		bank.withdraw(100);
 		bank.getBalalnce();
+		bank.deposit(200);
+		bank.getBalalnce();
+		bank.withdraw(3250);
+	
 		
 		 //System.out.println(bank.initialAmount);
 	}
